@@ -1,0 +1,7 @@
+@for (book of store.sortedBooks(); track book.title) {
+  <p>{{ book.title }}</p>
+}
+
+<button (click)="store.toggleOrder()">update Order</button>
+<button (click)="store.addBookEntity()">add book</button>
+<button (click)="onClick.emit($event)">random</button>
