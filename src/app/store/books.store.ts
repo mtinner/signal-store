@@ -116,7 +116,7 @@ export const BooksStore = signalStore(
   })),
   withHooks({
     onInit(store) {
-     // store.init()
+     store.init()
     }
   })
 );
